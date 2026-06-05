@@ -19,7 +19,9 @@ export default function Card({
         rounded-3xl
         p-8
         hover:border-blue-500/40
-        hover:-translate-y-2
+        hover:-translate-y-3
+        hover:shadow-2xl
+        hover:shadow-blue-500/10
         transition-all
         duration-300
       "

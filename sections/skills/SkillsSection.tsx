@@ -33,7 +33,7 @@ export default function SkillsSection() {
           {skills.map((skill) => (
             <div
               key={skill}
-              className="border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-6 text-center hover:border-blue-500/40 transition-all duration-300"
+              className=" group border border-white/10 bg-white/5 backdrop-blur-md rounded-2xl p-6 text-center hover:border-blue-400/50 hover:-translate-y-2 hover:bg-white/10 hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300 "
             >
               <p className="font-medium">{skill}</p>
             </div>

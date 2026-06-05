@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Container from "./Container";
 
 export default function Navbar() {
@@ -6,12 +7,18 @@ export default function Navbar() {
 
       <Container>
 
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-10">
 
-          <div>
-            <h1 className="text-2xl font-bold tracking-tight">
-              Murari.dev
-            </h1>
+          <div className="flex items-center">
+            <Image
+              src="/logo_murari.png"
+              alt="MS Logo"
+              width={350}
+              height={350}
+              className="w-100 h-80 rounded-full"
+
+            
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-10 text-sm text-gray-300">
