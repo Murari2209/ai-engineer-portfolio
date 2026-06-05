@@ -1,4 +1,8 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Container from "@/components/layout/Container";
+
 
 export default function HeroSection() {
   return (
@@ -8,13 +12,17 @@ export default function HeroSection() {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-175 h-175 bg-blue-500/20 blur-[120px] rounded-full" />
 
       <Container>
-        <div className="relative z-10 max-w-4xl">
+        <motion.div
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="relative z-10 max-w-4xl">
 
           <div className="inline-flex items-center gap-2 border border-blue-500/20 bg-blue-500/10 px-4 py-2 rounded-full mb-8">
             <div className="w-2 h-2 bg-blue-400 rounded-full" />
 
             <p className="text-blue-300 text-sm font-medium">
-              AI Automation Engineer & Python Developer
+              Senior Software Developer • Python Developer • AI Automation Engineer
             </p>
           </div>
 
@@ -41,13 +49,17 @@ export default function HeroSection() {
               View Projects
             </button>
 
-            <button className="border border-gray-700 hover:border-gray-500 bg-white/5 backdrop-blur-sm transition-all duration-300 px-8 py-4 rounded-2xl font-semibold hover:bg-white/10">
+            <a
+               href="/resume.pdf"
+               download
+              className="border border-gray-700 hover:border-gray-500 bg-white/5 backdrop-blur-sm transition-all duration-300 px-8 py-4 rounded-2xl font-semibold hover:bg-white/10"
+             >
               Download Resume
-            </button>
+            </a>
 
           </div>
 
-        </div>
+        </motion.div>
       </Container>
     </section>
   );

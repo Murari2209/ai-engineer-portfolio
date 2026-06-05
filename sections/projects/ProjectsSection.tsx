@@ -2,22 +2,29 @@ import Container from "@/components/layout/Container";
 import Card from "@/components/ui/Card";
 
 const projects = [
-  {
+   {
     title: "GitHub Analytics Platform",
     description:
-      "Analyze GitHub profiles, repositories, contribution history, and developer activity with visual insights and analytics.",
+      "Developer intelligence platform that analyzes GitHub profiles, repositories, commits, stars, forks, and contribution activity with actionable insights.",
+    github: "https://github.com/Murari2209/Github-Analyzer",
+    tech: ["Python", "GitHub API", "FastAPI", "MySQL"],
+    featured: true,
   },
 
   {
     title: "AI Resume Analyzer",
     description:
-      "Upload resumes and receive ATS analysis, skill extraction, job matching, and improvement suggestions.",
+      "AI-powered resume analysis platform with ATS scoring and skill extraction.",
+    github: "#",
+    tech: ["Python", "AI", "FastAPI"],
   },
 
-  {
+ {
     title: "AI Automation Dashboard",
     description:
-      "Centralized platform to manage automation workflows, AI-powered tasks, and productivity processes.",
+      "Centralized automation dashboard for managing workflows and AI tasks.",
+    github: "#",
+    tech: ["Python", "Automation"],
   },
 
   {
@@ -41,15 +48,14 @@ export default function ProjectsSection() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-
           {projects.map((project) => (
             <Card
               key={project.title}
               title={project.title}
               description={project.description}
+              github={project.github}
             />
           ))}
-
         </div>
 
       </Container>

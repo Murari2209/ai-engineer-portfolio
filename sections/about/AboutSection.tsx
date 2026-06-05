@@ -17,23 +17,23 @@ export default function AboutSection() {
 
           <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
 
-            <p>
-              I'm a Python Developer focused on AI Automation,
-              backend engineering, and building practical software
-              solutions that solve real-world problems.
+             <p>
+              I am a Senior Software Developer with 9 years of experience
+              building enterprise applications, backend systems, APIs,
+              and business solutions across multiple domains.
             </p>
 
             <p>
-              My journey started with PHP development and gradually
-              evolved into modern Python ecosystems, API development,
-              automation workflows, and AI-powered applications.
+              My journey started with PHP development and evolved toward
+              modern Python ecosystems, automation platforms, API
+              engineering, and AI-powered applications.
             </p>
 
             <p>
-              I enjoy building developer tools, automation systems,
-              analytics platforms, and scalable backend architectures.
-              Currently, I am expanding my expertise toward AI
-              Engineering and intelligent automation systems.
+              Today, I focus on Python development, AI automation,
+              developer tools, analytics platforms, and scalable backend
+              architectures while continuously expanding my expertise in
+              AI Engineering and intelligent systems.
             </p>
 
           </div>

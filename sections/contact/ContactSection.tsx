@@ -28,15 +28,15 @@ export default function ContactSection() {
             </p>
 
             <p>
-              +91 9039948775
+              📱 +91 9039948775
             </p>
 
             <p>
-              📍 New Delhi, India
+              📍 India
             </p>
 
             <p>
-              💼 Available for opportunities
+              💼 Open to Full-Time, Contract and Freelance Opportunities
             </p>
 
           </div>
