@@ -54,7 +54,7 @@ export default function Footer() {
                 href="mailto:shrivastava.murari@gmail.com"
                 className="p-3
     rounded-xl
-    bg-white/5
+    bg-white/55
     border
     border-white/10
     text-gray-300
