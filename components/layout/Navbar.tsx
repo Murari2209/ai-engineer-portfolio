@@ -41,9 +41,27 @@ export default function Navbar() {
 
           </nav>
 
-          <button className="bg-blue-500 hover:bg-blue-600 transition-all duration-300 px-5 py-2.5 rounded-xl text-sm font-medium shadow-lg shadow-blue-500/20 hover:scale-105">
-            Hire Me
-          </button>
+          <a
+            href="https://wa.me/919039948775"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              bg-blue-500
+              hover:bg-blue-600
+              transition-all
+              duration-300
+              px-5
+              py-2
+              rounded-xl
+              text-sm
+              font-medium
+              shadow-lg
+              shadow-blue-500/20
+              hover:scale-105
+            "
+          >
+            Contact Me
+          </a>
 
         </div>
 
