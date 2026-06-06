@@ -12,63 +12,33 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-6 text-sm text-gray-400">
-              <a
-                href="https://github.com/Murari2209"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3
-                rounded-xl
-                bg-white/5
-                border
-                border-white/10
-                text-gray-300
-                hover:text-white
-                hover:border-blue-500/40
-                hover:bg-blue-500/10
-                transition-all
-                duration-300 "
-              >
-                <FaGithub />
-              </a>
 
-              <a
-                href="https://www.linkedin.com/in/murari-shrivastava-0377b182"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3
-    rounded-xl
-    bg-white/5
-    border
-    border-white/10
-    text-gray-300
-    hover:text-white
-    hover:border-blue-500/40
-    hover:bg-blue-500/10
-    transition-all
-    duration-300"
-              >
-                <FaLinkedin />
-              </a>
+  <a
+    href="https://github.com/Murari2209"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    GitHub
+  </a>
 
-              <a
-                href="mailto:shrivastava.murari@gmail.com"
-                className="p-3
-    rounded-xl
-    bg-white/55
-    border
-    border-white/10
-    text-gray-300
-    hover:text-white
-    hover:border-blue-500/40
-    hover:bg-blue-500/10
-    transition-all
-    duration-300"
-              >
-                <FaEnvelope />
-              </a>
+  <a
+    href="https://www.linkedin.com/in/murari-shrivastava-0377b182"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    LinkedIn
+  </a>
 
-            
-          </div>
+  <a
+    href="mailto:shrivastava.murari@gmail.com"
+    className="hover:text-white transition"
+  >
+    Email
+  </a>
+
+</div>
 
         </div>
       </Container>
