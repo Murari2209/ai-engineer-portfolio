@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Container from "./Container";
 
 export default function Footer() {
@@ -11,9 +12,34 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-6 text-sm text-gray-400">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Email</a>
+            <div className="flex gap-6 text-xl text-gray-400">
+
+  <a
+    href="https://github.com/Murari2209"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/murari-shrivastava-0377b182"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-white transition"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="mailto:shrivastava.murari@gmail.com"
+    className="hover:text-white transition"
+  >
+    <FaEnvelope />
+  </a>
+
+</div>
           </div>
 
         </div>
