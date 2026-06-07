@@ -15,20 +15,20 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 w-125 h-125 bg-purple-500/10 blur-[150px] rounded-full" />
 
       <Container>
-  <div className="relative z-10 grid lg:grid-cols-[1.4fr_0.8fr] gap-12">
+  <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
 
     {/* LEFT COLUMN */}
     <div>
        
-      <div className="inline-flex items-center gap-2 border border-blue-500/20 bg-blue-500/10 px-4 py-2 rounded-full mb-8">
+      <div className="inline-flex items-center gap-2 border border-blue-500/20 bg-blue-500/10 px-4 py-2 rounded-full mb-8 max-w-full">
         <div className="w-3 h-2 bg-blue-300 rounded-full" />
           
-        <p className="text-blue-300 text-sm font-medium">
+        <p className="text-blue-300 text-xs md:text-sm font-medium">
           Senior Software Developer • Python Developer • AI Automation Engineer
         </p>
       </div>
 
-      <h1 className="text-4xl md:text-6xl lg:text-5xl font-bold leading-tight mb-6">
+      <h1 className="text-3xl md:text-6xl lg:text-5xl font-bold leading-tight mb-6">
         Building Intelligent
 
         <span className="block text-blue-400">
@@ -47,7 +47,7 @@ export default function HeroSection() {
       <div className="flex flex-wrap gap-5">
         <a
           href="#projects"
-          className="inline-flex bg-blue-500 hover:bg-blue-500 transition-all duration-300 px-8 py-4 rounded-2xl font-semibold shadow-lg shadow-blue-500/20 hover:scale-105"
+          className="inline-flex bg-blue-500 hover:bg-blue-500 transition-all duration-300 px-5 py-3 md:px-8 md:py-4 rounded-2xl font-semibold shadow-lg shadow-blue-500/20 hover:scale-105"
         >
           View Projects
         </a>
@@ -86,6 +86,7 @@ export default function HeroSection() {
             border
             border-white/10
             object-cover
+            hidden lg:flex
            
           "
         />
