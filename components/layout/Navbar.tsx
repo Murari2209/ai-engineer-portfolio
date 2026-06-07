@@ -50,7 +50,7 @@ export default function Navbar() {
               hover:bg-blue-600
               transition-all
               duration-300
-              hidden md: incline-flex
+              incline-flex
               rounded-xl
               text-sm
               font-medium
