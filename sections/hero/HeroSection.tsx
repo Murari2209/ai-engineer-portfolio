@@ -55,7 +55,7 @@ export default function HeroSection() {
         <a
           href="/resume.pdf"
           download
-          className="border border-gray-700 hover:border-green-500 bg-white/5 backdrop-blur-sm transition-all duration-300 px-8 py-4 rounded-2xl font-semibold hover:bg-white/10"
+          className="border border-gray-700 hover:border-green-500 bg-white/5 backdrop-blur-sm transition-all duration-300 px-5 py-3 md:px-8 md:py-4 rounded-2xl font-semibold hover:bg-white/10"
         >
           Download Resume
         </a>

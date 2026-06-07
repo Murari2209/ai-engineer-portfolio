@@ -21,7 +21,7 @@ export default function Navbar() {
             />
           </div>
 
-          <nav className="hidden md:flex items-center gap-10 text-sm text-gray-300">
+          <nav className="flex  items-center gap-10 text-sm text-gray-300">
 
             <a href="#about" className="hover:text-white transition">
               About
@@ -50,7 +50,9 @@ export default function Navbar() {
               hover:bg-blue-600
               transition-all
               duration-300
-              incline-flex
+              px-4
+              py-2
+              inline-flex
               rounded-xl
               text-sm
               font-medium
