@@ -10,15 +10,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-10">
 
           <div className="flex items-center">
-            <Image
+            <a href="#Home">
+             <Image
               src="/logo_murari.png"
               alt="MS Logo"
               width={350}
               height={350}
               className="w-100 h-80 rounded-full"
-
-            
-            />
+             />
+            </a>
           </div>
 
           <nav className="flex  items-center gap-10 text-sm text-gray-300">
