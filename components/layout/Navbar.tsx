@@ -23,6 +23,10 @@ export default function Navbar() {
 
           <nav className="flex  items-center gap-10 text-sm text-gray-300">
 
+            <a href="#Home" className="hover:text-white transition">
+              Home
+            </a>
+
             <a href="#about" className="hover:text-white transition">
               About
             </a>
