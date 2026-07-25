@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className="absolute bottom-0 left-0 w-125 h-125 bg-purple-500/10 blur-[150px] rounded-full" />
 
       <Container>
-  <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
+  <div id="home" className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
 
     {/* LEFT COLUMN */}
     <div>
@@ -75,7 +75,7 @@ export default function HeroSection() {
           blur-3xl
           rounded-full
         " />
-
+        
         <Image
           src="/profile/Murari_Profile.png"
           alt="Murari Shrivastava"

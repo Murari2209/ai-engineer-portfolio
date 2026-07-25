@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-10">
 
           <div className="flex items-center">
-            <a href="#Home">
+            <a href="#home">
              <Image
               src="/logo_murari.png"
               alt="MS Logo"
@@ -23,7 +23,7 @@ export default function Navbar() {
 
           <nav className="flex  items-center gap-10 text-sm text-gray-300">
 
-            <a href="#Home" className="hover:text-white transition">
+            <a href="#home" className="hover:text-white transition">
               Home
             </a>
 
